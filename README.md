@@ -16,13 +16,13 @@
   
   •  The link to Your Moodle login page `login_page`
   
-  •  The link to a user Moodle page `base_url` (leave the place after `=` empty), the code runs through all the database up to the `users_in_moodle`
+  •  The link to a user Moodle page `base_url` (leave the place after `=` empty), the code runs through all the database up to the number manually specified in `users_in_moodle`
   
   •  The number of `users_in_moodle` 
   
-  You have to try it out manually in the `base_url` and the opened browser and see, what is the maximum user ID in your school Moodle database.
+  You have to try it out manually in the `base_url` in any browser and see, what is the maximum user ID in your school Moodle database.
   
-  •  You might need to change some selectors in the 'send.py' inside the `main()` and `send_a_message()` FUNCTIONS, since it could very well be Your customized school Moodle.
+  •  You might need to change some selectors in the `send.py` inside the `main()` and `send_a_message()` FUNCTIONS, since it could very well be Your customized school Moodle.
     
 ### Install Python:
 
