@@ -31,6 +31,7 @@ username = "admin"
 password = "admin"
 login_page = "https://moodle.rea.perm.ru/login/index.php"
 base_url = "https://moodle.rea.perm.ru/user/profile.php?id="
+users_in_moodle = 5300
 text_file = open("moodle-message.txt", "r")
 message = text_file.read()
 text_file.close()
@@ -127,7 +128,7 @@ def main():
     login()
     time.sleep(3)
     
-    for i in range(4917,5200):
+    for i in range(0,users_in_moodle):
         recepient = base_url + str(i)
         driver.get(recepient)
         time.sleep(2)
