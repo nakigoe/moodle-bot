@@ -131,7 +131,7 @@ def main():
     for i in range(0,users_in_moodle):
         recepient = base_url + str(i)
         driver.get(recepient)
-        time.sleep(2)
+        time.sleep(3)
         
         try:
             error = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '.alert-danger')))
