@@ -16,8 +16,6 @@
   
   •  Your message inside `moodle-message.txt` file
   
-  •  The link to Your Moodle login page `login_page`
-  
   •  The link to a user Moodle page `base_url` (leave the place after `=` empty), the code runs through all the database up to the number manually specified in `users_in_moodle`
   
   •  The number of `users_in_moodle` 
@@ -67,8 +65,6 @@
   •  Moodle のパスワード `password` を入力してください
 
   •  `moodle-message.txt` ファイル内のメッセージを入力してください
-
-  •  Moodle のログインページへのリンク `login_page` を入力してください
 
   •  Moodle のユーザーページへのリンク `base_url` を入力してください（ = の後の部分は空白にしてください）、コードはデータベース全体を `users_in_moodle` まで実行します
 
@@ -123,8 +119,6 @@
   •  пароль `password`
 
   •  Ваше сообщение внутри файла `moodle-message.txt`
-  
-  •  сноску на страницу входа в Ваш Moodle `login_page`
   
   •  сноску на страницу пользователя Moodle `base_url` (оставьте место после `=` пустым), ПО перебирает ID всех пользователей с 0 до `users_in_moodle`
   
