@@ -8,6 +8,8 @@
 
 ### Change:
 
+  •  The link to Your school Moodle login page `login_page`
+
   •  Your Moodle login `username`
   
   •  Your Moodle password `password`
@@ -22,7 +24,7 @@
   
   You have to try it out manually in the `base_url` in any browser and see, what is the maximum user ID in your school Moodle database.
   
-  •  You might need to change some selectors in the `send.py` inside the `main()` and `send_a_message()` FUNCTIONS, since it could very well be Your customized school Moodle.
+  •  You might need to change some selectors in the `send.py` file inside the `main()` and `send_a_message()` FUNCTIONS, since it could very well be Your customized school Moodle.
     
 ### Install Python:
 
@@ -56,7 +58,9 @@
 
 ## ご利用方法
 
-### 変更:
+### 変更:変更：
+
+  •  あなたの学校の Moodle ログインページへのリンク `login_page`
 
   •  Moodle のログイン `username` を入力してください
 
@@ -104,13 +108,15 @@
 
 <hr>
 
-<h1 name="ru" id="ru">Moodle: массовая отправка сообщений студентам и работникам школы / академии / ВУЗа</h1>
+<h1 name="ru" id="ru">Автоматизация Moodle: массовая отправка сообщений студентам и работникам школы / академии / ВУЗа</h1>
 
 <b>Данный код написан имея в виду конкретный ВУЗ. Для использования ПО для Вашей школы, скорее всего, потребуется внести изменения в код и селекторы. Наличие актуального логина и пароля к Вашему Moodle обязательно.</b>
 
 ## Инструкция
 
 ### Замените:
+
+  •  сноску на страницу логина в Moodle Вашей школы `login_page`
 
   •  имя пользователя `username`
   
